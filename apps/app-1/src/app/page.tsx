@@ -1,8 +1,9 @@
+import { Header } from "puas-components"
+
 const Home = (): JSX.Element => {
   return (
     <>
-      <h1>Modulo Backoffice</h1>
-      <h2>Puerto 3001</h2>
+      <h1>Home</h1>
     </>
   );
 };

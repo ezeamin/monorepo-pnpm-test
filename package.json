@@ -1,7 +1,7 @@
 {
   "private": true,
   "scripts": {
-    "dev": "concurrently  \"cd apps/web && pnpm dev\" \"cd apps/backoffice-psae && pnpm dev\""
+    "dev": "concurrently  \"cd apps/app-1 && pnpm dev\" \"cd apps/app-2 && pnpm dev\""
   },
   "engines": {
     "node": ">=18.0.0",

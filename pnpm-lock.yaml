@@ -42,68 +42,7 @@ importers:
         specifier: ^5.3.2
         version: 5.3.2
 
-  apps/backoffice-psae:
-    dependencies:
-      images:
-        specifier: workspace:*
-        version: link:../../packages/images
-      next:
-        specifier: ^14.0.3
-        version: 14.0.3(react-dom@18.2.0)(react@18.2.0)
-      next-themes:
-        specifier: ^0.2.1
-        version: 0.2.1(next@14.0.3)(react-dom@18.2.0)(react@18.2.0)
-      puas-components:
-        specifier: workspace:*
-        version: link:../../packages/puas-components
-      react:
-        specifier: ^18.2.0
-        version: 18.2.0
-      react-dom:
-        specifier: ^18.2.0
-        version: 18.2.0(react@18.2.0)
-      react-icons:
-        specifier: ^4.12.0
-        version: 4.12.0(react@18.2.0)
-      ui:
-        specifier: workspace:*
-        version: link:../../packages/ui
-    devDependencies:
-      '@next/eslint-plugin-next':
-        specifier: ^14.0.3
-        version: 14.0.3
-      '@types/config':
-        specifier: ^3.3.3
-        version: 3.3.3
-      '@types/node':
-        specifier: ^20.9.4
-        version: 20.9.4
-      '@types/react':
-        specifier: ^18.2.38
-        version: 18.2.38
-      '@types/react-dom':
-        specifier: ^18.2.17
-        version: 18.2.17
-      config:
-        specifier: workspace:*
-        version: link:../../packages/config
-      eslint-config-custom:
-        specifier: workspace:*
-        version: link:../../packages/eslint-config-custom
-      multizones:
-        specifier: workspace:*
-        version: link:../../packages/multizones
-      tailwind-config:
-        specifier: workspace:*
-        version: link:../../packages/tailwind-config
-      tsconfig:
-        specifier: workspace:*
-        version: link:../../packages/tsconfig
-      typescript:
-        specifier: ^5.3.2
-        version: 5.3.2
-
-  apps/web:
+  apps/app-1:
     dependencies:
       dti:
         specifier: workspace:*
@@ -144,6 +83,67 @@ importers:
       zod:
         specifier: ^3.22.4
         version: 3.22.4
+    devDependencies:
+      '@next/eslint-plugin-next':
+        specifier: ^14.0.3
+        version: 14.0.3
+      '@types/config':
+        specifier: ^3.3.3
+        version: 3.3.3
+      '@types/node':
+        specifier: ^20.9.4
+        version: 20.9.4
+      '@types/react':
+        specifier: ^18.2.38
+        version: 18.2.38
+      '@types/react-dom':
+        specifier: ^18.2.17
+        version: 18.2.17
+      config:
+        specifier: workspace:*
+        version: link:../../packages/config
+      eslint-config-custom:
+        specifier: workspace:*
+        version: link:../../packages/eslint-config-custom
+      multizones:
+        specifier: workspace:*
+        version: link:../../packages/multizones
+      tailwind-config:
+        specifier: workspace:*
+        version: link:../../packages/tailwind-config
+      tsconfig:
+        specifier: workspace:*
+        version: link:../../packages/tsconfig
+      typescript:
+        specifier: ^5.3.2
+        version: 5.3.2
+
+  apps/app-2:
+    dependencies:
+      images:
+        specifier: workspace:*
+        version: link:../../packages/images
+      next:
+        specifier: ^14.0.3
+        version: 14.0.3(react-dom@18.2.0)(react@18.2.0)
+      next-themes:
+        specifier: ^0.2.1
+        version: 0.2.1(next@14.0.3)(react-dom@18.2.0)(react@18.2.0)
+      puas-components:
+        specifier: workspace:*
+        version: link:../../packages/puas-components
+      react:
+        specifier: ^18.2.0
+        version: 18.2.0
+      react-dom:
+        specifier: ^18.2.0
+        version: 18.2.0(react@18.2.0)
+      react-icons:
+        specifier: ^4.12.0
+        version: 4.12.0(react@18.2.0)
+      ui:
+        specifier: workspace:*
+        version: link:../../packages/ui
     devDependencies:
       '@next/eslint-plugin-next':
         specifier: ^14.0.3
